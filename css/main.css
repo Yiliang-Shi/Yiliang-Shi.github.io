@@ -2,7 +2,7 @@ body {
     margin: 60px auto;
     width: 70%;
     background-color: #003366;
-    background: linear-gradient(left, #003366,#194775,#003366);
+    background: linear-gradient(left, #003366,#19538c,#003366);
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -16,7 +16,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: FFFFFF;
+    color: #FFFFFF;
 }
 a:hover {
     text-decoration: underline;
