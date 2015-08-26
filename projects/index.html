@@ -3,47 +3,49 @@ layout: default
 Title: Projects
 ---
 <h1>{{ page.title }}</h1>
-<h2><a href ="https://github.com/Yiliang-Shi/PEuler/blob/master/PEuler/FunctionLib.cs">Algorithmic Function Library</a></h2>
-<p>Contains a number of functions for the purpose of solving math problems. Aids in a modular approach to problem solving. Contains examples of lambda expression</p>
-<p>
-	<dl>
-		<dt> public delegate Tuple<int, int[]> NextSequenceElement(int[] input);</dt>;
-		<dl>Abstract Lambda Function that accepts an integer array as input and returns a tuple containing the next integer element of a recursive sequence and input array required</dl>;
+<div class="documentation">
+	<h2><a href ="https://github.com/Yiliang-Shi/PEuler/blob/master/PEuler/FunctionLib.cs">Algorithmic Function Library</a></h2>
+	<p>Contains a number of functions for the purpose of solving math problems. Aids in a modular approach to problem solving. Contains examples of lambda expression</p>
+	<p>
+		<dl>
+			<dt> public delegate Tuple<int, int[]> NextSequenceElement(int[] input)</dt>
+			<dd>Abstract Lambda Function that accepts an integer array as input and returns a tuple containing the next integer element of a recursive sequence and input array required</dd>
 
-		<dt> public static int SumArray(int[] array)</dt>
-		<dl>Sum the elements of an integer array</dl>;
+			<dt> public static int SumArray(int[] array)</dt>
+			<dd>Sum the elements of an integer array</dd>
 
-		<dt>public static Tuple<int, int[]> NextLesserPanlindrome(int[] input)</dt>;
-		<dl>Function that takes an integer input array of the numbers of the currnet Panlindrome. Returns a Tuple containing the the next smallest Panlindrome in both integer and integer array format</dl>;
+			<dt>public static Tuple<int, int[]> NextLesserPanlindrome(int[] input)</dt>
+			<dd>Function that takes an integer input array of the numbers of the currnet Panlindrome. Returns a Tuple containing the the next smallest Panlindrome in both integer and integer array format</dd>
 
-		<dt> public static char[] IntToCharArray(int num)</dt>;
-		<dl>Convert an Integer to an Char array of its digits</dl>;
+			<dt> public static char[] IntToCharArray(int num)</dt>
+			<dd>Convert an Integer to an Char array of its digits</dd>
 
-		<dt>public static int CountIntegerChar(int num)</dt>;
-		<dl>Count the number of digits in an Integer</dl>;
+			<dt>public static int CountIntegerChar(int num)</dt>
+			<dd>Count the number of digits in an Integer</dd>
 
-		<dt>public static List<int> MakeSequence(NextSequenceElement generateNext, int first, int length, params int[] inputs)</dt>;
-		<dl>Creates a recursively defined sequence of a specified length in the form of a list of integers.</dl>;
+			<dt>public static List<int> MakeSequence(NextSequenceElement generateNext, int first, int length, params int[] inputs)</dt>
+			<dd>Creates a recursively defined sequence of a specified length in the form of a list of integers.</dd>
 
-		<dt>public static List<int> MakeSequenceUnder(NextSequenceElement generateNext, int first, int max, params int[] inputs)</dt>;
-		<dl>Creates a recursively defined sequence in the form of a list containing all element under a specified number given an starting number</dl>;
+			<dt>public static List<int> MakeSequenceUnder(NextSequenceElement generateNext, int first, int max, params int[] inputs)</dt>
+			<dd>Creates a recursively defined sequence in the form of a list containing all element under a specified number given an starting number</dd>
 
-		<dt>public static Tuple<int, int[]> NextEvenFibonacci(int[] input)</dt>
-		<dl></dl>
+			<dt>public static Tuple<int, int[]> NextEvenFibonacci(int[] input)</dt>
+			<dd></dd>
 
-		<dt>public static List<int> ListPrimes(int num)</dt>
-		<dl>find a list of num primes using the sieve of Erotoshenes</dl>
+			<dt>public static List<int> ListPrimes(int num)</dt>
+			<dd>find a list of num primes using the sieve of Erotoshenes</dd>
 
-		<dt>public static List<int> ListPrimesUnder(int num)</dt>
-		<dl>find a list of all positive primes under num using the sieve of Erotoshenes</dl>
+			<dt>public static List<int> ListPrimesUnder(int num)</dt>
+			<dd>find a list of all positive primes under num using the sieve of Erotoshenes</dd>
 
-		<dt>public static List<int[]> PrimeFactorize(long number)</dt>
-		<dl>returns a list of size 2 int arrays with the 1st element being the prime number and the 2nd its power</dl>
+			<dt>public static List<int[]> PrimeFactorize(long number)</dt>
+			<dd>returns a list of size 2 int arrays with the 1st element being the prime number and the 2nd its power</dd>
 
-		<dt>public static List<int> ListMultiples(int max, params int[] variables)</dt>
-		<dl>//Returns a list of all possible multiples of specified variables up to max </dl>
+			<dt>public static List<int> ListMultiples(int max, params int[] variables)</dt>
+			<dd>//Returns a list of all possible multiples of specified variables up to max </dd>
 
-	</ul>
-</p>
+		</dl>
+	</p>
+</div>
 <h2><a href ="https://github.com/Yiliang-Shi/PEuler/blob/master/ConsoleApplication1/Program.cs">Project Euler</a></h2>
 <p>Example usage of Algorithmic Function Library. Console application that solves problems from Project Euler</p>
