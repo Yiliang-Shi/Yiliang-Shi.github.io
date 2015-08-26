@@ -49,8 +49,6 @@ p {
     padding: 0.5em;
 }
 .documentation dt{
-    float: left;
-    clear: left;
     text-align: left;
     font-weight: bold;
     color: #FFFFFF;
