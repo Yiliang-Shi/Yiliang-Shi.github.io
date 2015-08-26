@@ -6,15 +6,15 @@ body {
     padding: 1.5em;
     width: 80%;
     background-color: #003366;
-    background: -webkit-linear-gradient(left,#003366 10%,#19538c 20%,#19538c 80%,#003366 90%); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(left, #003366 10%,#19538c 20%,#19538c 80%,#003366 90%); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(left, #003366 10%,#19538c 20%,#19538c 80%,#003366 90%); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to left, #003366 10%,#19538c 20%,#19538c 80%,#003366 90%);
+    background: -webkit-linear-gradient(left,#003366 5%,#19538c 10%,#19538c 90%,#003366 95%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #003366 5%,#19538c 10%,#19538c 90%,#003366 95%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #003366 5%,#19538c 10%,#19538c 90%,#003366 95%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #003366 5%,#19538c 10%,#19538c 90%,#003366 95%);
     color: #e5ebf2;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 1.5em;
+    padding: 0;
     list-style: none;
     font-weight: bold;
 }
@@ -50,7 +50,7 @@ footer {
 }
 
 ul.posts { 
-    margin: 20px auto 40px; 
+    margin: 10px auto 40px; 
     font-size: 1.5em;
 }
 
