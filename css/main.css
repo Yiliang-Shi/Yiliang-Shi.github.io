@@ -1,26 +1,36 @@
+img, embed, object,video{
+    max-width: 100%;
+}
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin: 2% auto;
+    padding: 1.5em;
+    width: 80%;
     background-color: #003366;
-    background-image: linear-gradient(to left, #003366 10%,#19538c,#003366 10%);
-    color: #FFFFCC;
+    background: -webkit-linear-gradient(left,#003366 10%,#19538c 20%,#19538c 80%,#003366 90%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #003366 10%,#19538c 20%,#19538c 80%,#003366 90%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #003366 10%,#19538c 20%,#19538c 80%,#003366 90%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #003366 10%,#19538c 20%,#19538c 80%,#003366 90%);
+    color: #e5ebf2;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding: 1.5em;
     list-style: none;
     font-weight: bold;
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 5%;
+    
 }
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #FFFFFF;
+    min-height: 48px;
+    min-width: 48px;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 h1 {    
     font-size: 3em;
