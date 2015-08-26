@@ -8,41 +8,41 @@ Title: Projects
 	<p>Contains a number of functions for the purpose of solving math problems. Aids in a modular approach to problem solving. Contains examples of lambda expression</p>
 	<p>
 		<dl>
-			<dt> public delegate Tuple<int, int[]> NextSequenceElement(int[] input)</dt>
+			<dt> public delegate Tuple<int, int[]> NextSequenceElement( int[] input)</dt>
 			<dd>Abstract Lambda Function that accepts an integer array as input and returns a tuple containing the next integer element of a recursive sequence and input array required</dd>
 
-			<dt> public static int SumArray(int[] array)</dt>
+			<dt> public static int SumArray( int[] array)</dt>
 			<dd>Sum the elements of an integer array</dd>
 
-			<dt>public static Tuple<int, int[]> NextLesserPanlindrome(int[] input)</dt>
+			<dt>public static Tuple<int, int[]> NextLesserPanlindrome( int[] input)</dt>
 			<dd>Function that takes an integer input array of the numbers of the currnet Panlindrome. Returns a Tuple containing the the next smallest Panlindrome in both integer and integer array format</dd>
 
-			<dt> public static char[] IntToCharArray(int num)</dt>
+			<dt> public static char[] IntToCharArray( int num)</dt>
 			<dd>Convert an Integer to an Char array of its digits</dd>
 
-			<dt>public static int CountIntegerChar(int num)</dt>
+			<dt>public static int CountIntegerChar( int num)</dt>
 			<dd>Count the number of digits in an Integer</dd>
 
-			<dt>public static List<int> MakeSequence(NextSequenceElement generateNext, int first, int length, params int[] inputs)</dt>
+			<dt>public static List<int> MakeSequence( NextSequenceElement generateNext, int first, int length, params int[] inputs)</dt>
 			<dd>Creates a recursively defined sequence of a specified length in the form of a list of integers.</dd>
 
-			<dt>public static List<int> MakeSequenceUnder(NextSequenceElement generateNext, int first, int max, params int[] inputs)</dt>
+			<dt>public static List<int> MakeSequenceUnder( NextSequenceElement generateNext, int first, int max, params int[] inputs)</dt>
 			<dd>Creates a recursively defined sequence in the form of a list containing all element under a specified number given an starting number</dd>
 
-			<dt>public static Tuple<int, int[]> NextEvenFibonacci(int[] input)</dt>
+			<dt>public static Tuple<int, int[]> NextEvenFibonacci( int[] input)</dt>
 			<dd></dd>
 
-			<dt>public static List<int> ListPrimes(int num)</dt>
+			<dt>public static List<int> ListPrimes( int num)</dt>
 			<dd>find a list of num primes using the sieve of Erotoshenes</dd>
 
-			<dt>public static List<int> ListPrimesUnder(int num)</dt>
+			<dt>public static List<int> ListPrimesUnder( int num)</dt>
 			<dd>find a list of all positive primes under num using the sieve of Erotoshenes</dd>
 
-			<dt>public static List<int[]> PrimeFactorize(long number)</dt>
+			<dt>public static List<int[]> PrimeFactorize( long number)</dt>
 			<dd>returns a list of size 2 int arrays with the 1st element being the prime number and the 2nd its power</dd>
 
-			<dt>public static List<int> ListMultiples(int max, params int[] variables)</dt>
-			<dd>//Returns a list of all possible multiples of specified variables up to max </dd>
+			<dt>public static List<int> ListMultiples( int max, params int[] variables)</dt>
+			<dd>Returns a list of all possible multiples of specified variables up to max </dd>
 
 		</dl>
 	</p>

@@ -41,8 +41,25 @@ p {
     line-height: 1.4em;
     color: #FFFFFF;
 }
-.documentation {
-
+.documentation{
+     font-size: 1.5em;
+}
+.documentation dl{
+    border: 3px double #5e86ae;
+    padding: 0.5em;
+}
+.documentation dt{
+    float: left;
+    clear: left;
+    text-align: left;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.documentation:after dt{
+    content: ":";
+}
+.documentation dd{
+    color: #e5ebf2;
 }
 footer {
     border-top: 1px solid #e5ebf2;
